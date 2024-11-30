@@ -22,9 +22,13 @@
       .text {
         padding-left: 20px;
       }
-      /* .project-text {
+      .project-image {
+        padding-left: 40px;
+        width: 400px;
+      }
+      .project-text {
         width: 600px;
-      } */
+      }
     </style>
 
     <body>
@@ -50,7 +54,8 @@
                     made at the intersection of neuroscientific and machine learning 
                     models.
                     <br><br>
-                    You can reach me at <code>kf4809@princeton.edu</code>, view my CV 
+                    You can reach me at <br>
+                    <code>kf4809@princeton.edu</code>, view my CV 
                     <a href="content/CV.pdf" target="_blank" rel="noopener noreferrer">here</a>, 
                     or read more about my research projects below. 
                     <p>
@@ -80,13 +85,70 @@
         <div class="container">
             <div class="project-text">
                 <p>Advisor: Dr. Michael Graziano <br>
-                    How can 
+                What happens when we implement social cognition theories for attention modulation
+                into deep learning models? Here, we modify transformer-based neural network architectures
+                to examine self-modeling attention mechanisms and their impact on multiagent
+                cooperation.
+                <ul>
+                    <li>
+                        <a href="https://www.arxiv.org/pdf/2411.00983" 
+                        target="_blank" rel="noopener noreferrer">arXiv PDF</a> 
+                    </li>
+                    <li>
+                        <a href="content/asanns_poster.pdf" 
+                        target="_blank" rel="noopener noreferrer">Poster PDF</a>,
+                        <i>Princeton Symposium on the Safe Deployment of Foundation 
+                            Models in Robotics (2024). Awarded 2nd Place Poster Prize.</i> 
+                    </li>
+                </ul>
                 <p>
             </div>
-            <div class="image">
-                <!-- <img src="content/images/name.png"/> -->
+            <div class="project-image">
+                <img src="content/images/asanns_fig.png"/>
             </div>
         </div>
         
+        <h3>Understanding the Latent Structure of Population Responses in the Hippocampus</h3>
+        <div class="container">
+            <div class="project-text">
+                <p>Advisor: Dr. Jonathan Pillow <br>
+                Studies suggest that the behavior of "non-place" cells in the hippocampus can be predicted
+                from the activity of their neighbors, and that population responses in the hippocampal
+                cell network can be well described by a location-blind maximum entropy model.
+                Here we examine the potential information encoded by non-place cells, and by the
+                collective state of the hippocampal network, using Gaussian Process models.
+                <p>
+            </div>
+            <div class="project-image">
+                <img src="content/images/gp_fig.png" />
+            </div>
+        </div>
+
+        <h3>Describing Stimulated Cortical Circuits with Dynamical Similarity Analysis (DSA) and
+            Dynamic Mode Decomposition (DMD)
+        </h3>
+        <div class="container">
+            <div class="project-text">
+                <p>Advisor: Dr. Azadeh Yazdan <br>
+                    How are the dynamics of cortical circuits changed by optogenetic stimulation experiments,
+                    and how can we map the properties of dynamical system models onto meaningful features of 
+                    the original cortical circuits? Here, we analyze networks in primate sensorimotor cortex as 
+                    linear dynamical systems, and demonstrate a sustained distortion of these systems when 
+                    optogenetic stimulations are applied over time. We are currently developing
+                    computational analyses for interpreting the evolution of dynamic modes through the lens of
+                    firing frequencies and spatial correlations within the cortical circuits.
+                <ul>
+                    <li>
+                        <a href="content/dsa_poster.pdf" 
+                        target="_blank" rel="noopener noreferrer">Poster PDF</a>,
+                        <i>From Neuroscience to Artificially Intelligent Systems (2024).</i> 
+                    </li>
+                </ul>
+                <p>
+            </div>
+            <div class="project-image">
+                <img src="content/images/dsa_fig.png"/>
+            </div>
+        </div>
     </body>
 </html>
